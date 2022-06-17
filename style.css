@@ -1,0 +1,189 @@
+    body {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    
+    h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 4rem;
+        letter-spacing: .25rem;
+    }
+    
+    h3 {
+        padding: 7% 3% 5%;
+    }
+    
+    p {
+        padding: 0 3%;
+    }
+    
+    .nav-item {
+        color: black;
+        padding: 0 20px;
+        font-size: 1.25rem;
+    }
+    
+    .navbar-brand {
+        font-family: 'Libre Baskerville', serif;
+        font-style: italic;
+        font-size: 2.25rem;
+        letter-spacing: .25rem;
+        margin: 10px
+    }
+    
+    .hotel-name {
+        font-family: 'Libre Baskerville', serif;
+        margin-top: 4%;
+    }
+    
+    .name {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 100;
+        font-size: 1rem;
+        letter-spacing: .5rem;
+        padding: 3%;
+    }
+    /* hotel carousel section */
+    
+    #carousel {
+        height: 45%;
+        margin: 2% 6% 3%;
+    }
+    /* welcome section */
+    
+    #welcome {
+        background-color: #F7ECDE;
+        margin: 0% 6%;
+        text-align: left;
+    }
+    
+    .lobby {
+        width: 100%;
+        justify-self: center;
+        padding-top: 25%;
+    }
+    /* hotel info section */
+    
+    #hotel {
+        margin: 0% 6%;
+    }
+    
+    .htl {
+        background-color: #EEEEEE;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        border: darkgrey solid 2px;
+    }
+    
+    .lounge {
+        width: 100%;
+    }
+    
+    .restaurant {
+        width: 100%;
+    }
+    
+    .room {
+        width: 100%;
+    }
+    /* hotel other Section */
+    
+    #hotel-other {
+        margin: 0% 6%;
+    }
+    
+    .hotel-oth {
+        background-color: #EEEEEE;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        border: darkgrey solid 2px;
+    }
+    
+    .conference {
+        width: 100%;
+    }
+    
+    .gym {
+        width: 100%;
+    }
+    /* reservation section */
+    
+    #reservation {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        height: 600px;
+        margin: 3% 6% 0%;
+        overflow: hidden;
+    }
+    
+    .bell {
+        width: 100%;
+        opacity: .5;
+    }
+    
+    .res-card {
+        background-color: #EEEEEE;
+        border-bottom: #1C658C solid 30px;
+        width: 500px;
+        height: 260px;
+        text-align: left;
+        position: sticky;
+        left: 60%;
+        bottom: 5%;
+    }
+    
+    .res {
+        padding: 6% 7%;
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: .5rem;
+        text-align: left;
+    }
+    
+    .address {
+        font-weight: 100;
+        font-size: 1rem;
+        letter-spacing: .125rem;
+        padding-left: 7%;
+    }
+    /* Footer section */
+    
+    #footer {
+        background-color: #EEEEEE;
+        height: 200px;
+        padding: 50px 0px;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: darkgray;
+        padding: 0px 15px;
+    }
+    
+    .copyright {
+        color: darkgray;
+        padding: 30px;
+    }
+    
+    @media (max-width: 700px) {
+        .res-card {
+            position: static;
+            flex-grow: 2;
+        }
+        .res {
+            font-size: 1.5rem;
+        }
+        .address {
+            font-size: 1rem;
+        }
+    }
